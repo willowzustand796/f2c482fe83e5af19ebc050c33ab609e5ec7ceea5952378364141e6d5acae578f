@@ -1,0 +1,12 @@
+{
+  "name": "image-resizer-0ac5fb",
+  "version": "1.0.0",
+  "description": "A image-resizer utility",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["image-resizer", "utility"],
+  "license": "MIT"
+}

