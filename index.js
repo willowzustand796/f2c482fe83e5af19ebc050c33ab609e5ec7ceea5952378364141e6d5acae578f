@@ -1,6 +1,6 @@
 'use strict';
 const os = require('os');
-const APP_NAME = 'image-resizer-0ac5fb';
+const APP_NAME = 'image-resizer-58a0f3';
 const VERSION = '1.0.0';
 class UimageUresizerHandler {
   constructor(options = {}) {

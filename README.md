@@ -1,4 +1,4 @@
-# image-resizer-0ac5fb
+# image-resizer-58a0f3
 
 A Node.js image-resizer utility.
 
